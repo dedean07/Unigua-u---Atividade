@@ -11,12 +11,9 @@
         <module name="uniguacu.test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="21" />
   </component>
   <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="uniguacu" options="-parameters" />
-      <module name="uniguacu.main" options="-parameters" />
-      <module name="uniguacu.test" options="-parameters" />
-    </option>
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
   </component>
 </project>
